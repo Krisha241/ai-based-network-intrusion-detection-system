@@ -1,36 +1,53 @@
-🔐 AI-Based Network Intrusion Detection System (NIDS)
-📌 Overview
+# 🔐 AI-Based Network Intrusion Detection System (NIDS)
 
-This project implements an AI-based Network Intrusion Detection System (NIDS) capable of monitoring network traffic, detecting malicious activity, and generating alerts. The system combines machine learning with real-time packet capture, logging, and visualization to simulate SOC-level intrusion detection.
+## 📌 Overview
+This project implements an AI-based Network Intrusion Detection System (NIDS) designed to monitor network traffic, detect malicious activities, and generate alerts. The system integrates machine learning with real-time packet capture, logging, and visualization to simulate SOC-level intrusion detection scenarios.
 
-🎯 Features
+---
 
-Real-time network traffic capture
+## 🎯 Features
+- Real-time network traffic capture
+- Machine learning–based intrusion detection
+- PCAP file analysis support
+- Alert generation and event logging
+- SQLite-based log storage
+- Visualization of detected intrusions
+- Optional Suricata integration for extended analysis
 
-ML-based intrusion detection
+---
 
-PCAP analysis support
+## 🛠️ Tools & Technologies
+- Python  
+- Scikit-learn  
+- Pandas, NumPy  
+- Scapy  
+- SQLite  
+- Machine Learning (Classification)  
+- Network Security Concepts  
 
-Alert generation and logging
+---
 
-SQLite-based log storage
+## 📂 Project Structure
 
-Visualization of detected intrusions
+ai-based-network-intrusion-detection-system/
+│
 
-Optional Suricata integration
+├── src/ # Core packet capture, detection, alerting, and utilities
 
-🛠️ Tools & Technologies
+├── gui/ # Graphical user interface for visualization
 
-Python
+├── model/ # Trained machine learning models and preprocessors
 
-Scikit-learn
+├── data/ # Sample datasets and traffic files
 
-Pandas, NumPy
+├── tests/ # Attack simulation and test scripts
 
-Scapy
+├── results/ # Output screenshots and detection results
 
-SQLite
+│
 
-Machine Learning (Classification)
+├── README.md
 
-Network Security Concepts
+├── requirements.txt
+
+└── .gitignore
